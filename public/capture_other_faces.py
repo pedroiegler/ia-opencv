@@ -1,9 +1,9 @@
 import cv2
 
-rostoFrontal = cv2.CascadeClassifier('haarcascade/haarcascade_frontalface_default.xml')
-rostoGato = cv2.CascadeClassifier('haarcascade/haarcascade_frontalcatface.xml')
+rostoFrontal = cv2.CascadeClassifier('resources/haarcascade/haarcascade_frontalface_default.xml')
+rostoGato = cv2.CascadeClassifier('resources/haarcascade/haarcascade_frontalcatface.xml')
 
-img = cv2.imread('images/cat.jpg')
+img = cv2.imread('resources/images/cat.jpg')
 
 imagemCinza = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 

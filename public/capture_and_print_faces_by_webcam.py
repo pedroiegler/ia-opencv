@@ -3,7 +3,7 @@ import cv2
 
 webcam = cv2.VideoCapture(0)
 
-haarcascadeRosto = cv2.CascadeClassifier('haarcascade/haarcascade_frontalface_default.xml')
+haarcascadeRosto = cv2.CascadeClassifier('resources/haarcascade/haarcascade_frontalface_default.xml')
 
 numFotos = 5
 idAtual = 1
@@ -26,7 +26,7 @@ while True:
                 imagemCinza[y:y+altura, x:x+largura],
                 (larguraImg, alturaImg))
             
-            cv2.imwrite("photos/pessoa."+str(idPessoa) + "." + str(idAtual) + ".jpg", imageFace)
+            cv2.imwrite("resources/photos/pessoa."+str(idPessoa) + "." + str(idAtual) + ".jpg", imageFace)
             
             print("Imagem: " + str(idAtual) + " Capturada com sucesso!")
             idAtual+=1

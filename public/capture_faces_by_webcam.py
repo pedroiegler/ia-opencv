@@ -1,6 +1,6 @@
 import cv2
 
-haarRosto = cv2.CascadeClassifier("haarcascade/haarcascade_frontalface_default.xml")
+haarRosto = cv2.CascadeClassifier("resources/haarcascade/haarcascade_frontalface_default.xml")
 webcam = cv2.VideoCapture(0)  
 
 while True:

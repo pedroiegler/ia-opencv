@@ -5,7 +5,7 @@ import os
 lbph = cv2.face.LBPHFaceRecognizer_create()
 
 def getImgId():
-    caminhos = [os.path.join('photos', f) for f in os.listdir('photos')]
+    caminhos = [os.path.join('resources/photos', f) for f in os.listdir('resources/photos')]
     
     #print(caminhos)
     
