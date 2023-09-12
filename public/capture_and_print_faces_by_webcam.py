@@ -11,7 +11,7 @@ harcascadeRosto = cv2.CascadeClassifier('resources/haarcascade/haarcascade_front
 
 #variáveis auxiliares
 
-numFotos = 5
+numFotos = 50
 idAtual = 1
 idPessoa = input("Digite o número da pessoa na sequência: ")
 larguraImg, alturaImg = 220, 220

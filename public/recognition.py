@@ -22,7 +22,7 @@ largura, altura = 220, 220
 #carrega um arquivo de fonte para escrever na imagem
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 
-nomes = ['pessoa1', 'Pedro', 'pessoa3', 'pessoa4']
+nomes = ['Pessoa1', 'Pessoa']
 
 
 while (True):
